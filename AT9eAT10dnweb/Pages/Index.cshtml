@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h2 class="display-4">AT9 e AT10</h2>
+    <p>AT 9 - Explique como o Scaffolding auxilia na criação de páginas CRUD em uma aplicação ASP.NET Core e qual 
+       o papel do Entity Framework Core nesse processo.  
+    </p>
+    <p>Resposta - Basicamente, o Scaffolding gera toda a massa de código responsável pelas operações CRUD(Create, Read)
+        Update e Delete) de forma automática, bem como a construção mínima de uma interface responsiva. 
+        O modelo é gerado a partir dos Models, com isso são criadas as Views e os Controllers de forma rápida e padronizada.
+        A principal função do EF Core é fazer a integração e atualização do modelo de dados da apliacação ao banco de dados, 
+        feita a partir de simples comandos com uso das "Migrations" e também fazer todo o mapeamento objeto-relacional(ORM) 
+        das classes.
+    </p>
+
+    <p>AT 10 - Quais são as principais formas de personalizar as páginas geradas pelo Scaffolding em ASP.NET Core?</p>
+    <p>Resposta - A personalização pode ser feita principalmente nos Models, nas Views, nos Controllers e também no roteamento
+        apenas modificando-as de acordo com os requisitos específios de sua aplicação, pois como é gerado de forma automática,
+        não é possível que atenda a todos os padrões de mercado. Claro que outras modificações podem ser feitas e não se resumem
+        somente ao que foi citado, é preciso saber de que forma e como o sitema irá funcionar, só assim essas personalizacões irão
+        se adequar ao tipo de sistema desenvolvido.
+    </p>
+
+</div>
